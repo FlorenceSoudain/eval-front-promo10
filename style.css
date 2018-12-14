@@ -4,12 +4,14 @@ body {
     margin: 5%;
     width: auto;
     height: auto;
+    background: lavender;
 }
 #container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 600px;
+    width: 70.6%;
+    border: solid 5px gainsboro;
     margin: 0 auto;
 }
 #global {
@@ -21,50 +23,40 @@ body {
     flex-direction: row;
 }
 #intro {
-    width: 400px;
-    height: 200px;
+    width: 66%;
     background: forestgreen;
     line-height: 200%;
 }
 #profile {
-    width: 200px;
-    height: 200px;
+    width: 34%;
     background: orange;
 }
 #experience {
-    width: 200px;
-    height: 200px;
+    width: 33%;
     background: dodgerblue;
 }
 #education {
-    width: 200px;
-    height: 200px;
+    width: 33%;
     background: red;
 }
 #blog {
-    width: 200px;
-    height: 200px;
+    width: 34%;
     background: forestgreen;
 }
 #SNS {
-    width: 200px;
-    height: 200px;
+    width: 33%;
     background: orangered;
 }
 #contact {
-    width: 200px;
-    height: 200px;
+    width: 33%;
     background: dodgerblue;
 }
 #portfolio {
-    width: 200px;
-    height: 200px;
+    width: 34%;
     background: orangered;
 }
 #image {
-    width: 400px;
-    height: 600px;
-    background: darksalmon;
+    height: 100%;
 }
 .text {
     padding: 10%;
@@ -95,4 +87,15 @@ body {
     width: 30%;
     padding: 4%;
     margin-top: 4%;
+}
+#next, #prev {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    margin-top: -22px;
+    padding: 16px;
+}
+#next {
+    right: 18%;
 }
